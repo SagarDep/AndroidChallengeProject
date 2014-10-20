@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/w04" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="向下拉取\n获得最新座位信息"
+        android:textColor="@color/TextColor"
+        android:textSize="22sp" />
+
+</RelativeLayout>

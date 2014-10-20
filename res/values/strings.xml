@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Library_Seat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_mainfloor">MainfloorActivity</string>
+    <string name="title_activity_first_floor">FirstFloorActivity</string>
+    <string name="title_activity_manage">ManageActivity</string>
+    <string name="title_activity_guideviewdoor">GuideViewDoor</string>
+    <string name="title_activity_main_floor">MainFloorActivity</string>
+    <string name="title_activity_guide_door">GuideDoorActivity</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/w01"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.example.library_seat" xmlns:app1="http://schemas.android.com/apk/res/com.example.sweet">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="座位小助手\n为您节省宝贵的时间"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <com.example.sweet.CircleButton
+        android:id="@+id/startBtn"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:src="@drawable/f00"
+        app1:cb_color="#99CC00" />
+
+</RelativeLayout>

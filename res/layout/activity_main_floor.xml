@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context="com.example.sweet.MainFloorActivity" xmlns:app="http://schemas.android.com/apk/res/com.example.sweet">
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" >
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="新书及多\n媒体阅览室"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+        
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="20dp">
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="南期刊\n阅览室"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="南期刊\n阅览室"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="北期刊\n阅览室"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="北期刊\n阅览室"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="20dp">
+        
+        <com.example.sweet.FButton 
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="科技图书\n阅览室一楼"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="科技图书\n阅览室二楼"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="20dp">
+        
+        <com.example.sweet.FButton 
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="八楼社科\n阅览室(南)"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="八楼社科\n阅览室(北)"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="九楼社科\n阅览室(南)"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+
+        <com.example.sweet.FButton 
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="5dp"
+                android:text="九楼社科\n阅览室(北)"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                fbutton:buttonColor="@color/fbutton_color_emerald"
+                fbutton:shadowEnabled="true" />
+    </LinearLayout>
+
+</LinearLayout>
